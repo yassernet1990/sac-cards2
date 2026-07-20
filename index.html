@@ -17,13 +17,13 @@
 </header>
 <section class="workspace">
 <aside class="controls"><label for="themeSelect">Choose theme</label><select id="themeSelect"></select><div class="theme-info"><h2 id="themeName"></h2><p id="themeDesc"></p><div id="swatches" class="swatches"></div></div><a class="drive-link" href="https://drive.google.com/drive/folders/17TJ50u_eP_lyT1f89XEIBvDk6CvoANY7?usp=drive_link" target="_blank" rel="noopener">Open source folder in Google Drive</a></aside>
-<section class="viewer"><div class="viewer-head"><div><small>ACTIVE IDENTITY</small><h2 id="viewerTitle"></h2></div><span>Google Drive image source</span></div><div class="stage" id="stage"><img id="preview" alt="SAC identity preview"><div class="error">Image could not be loaded. Make sure the Google Drive files are shared publicly.</div></div><div id="buttons" class="quick-buttons"></div></section>
+<section class="viewer"><div class="viewer-head"><div><small>ACTIVE IDENTITY</small><h2 id="viewerTitle"></h2></div><span>Google Drive image source</span></div><div class="stage" id="stage"><img id="preview" alt="SAC identity preview"><div class="error">Image could not be loaded. Open the Google Drive source folder using the button.</div></div><div id="buttons" class="quick-buttons"></div></section>
 </section>
 <section class="gallery-section"><div class="section-title"><p>ALL THEMES</p><h2>Identity collection</h2></div><div id="gallery" class="gallery"></div></section>
 <footer>© 2026 SAC Logistics · Identity Theme Gallery</footer>
 </main>
 <script>
-const drive=id=>`https://drive.google.com/uc?export=view&id=${id}`;
+const drive=id=>`https://drive.google.com/thumbnail?id=${id}&sz=w2400`;
 const themes={
 signature:{name:'SAC Signature',desc:'Original SAC navy, turquoise and sand identity.',colors:['#061f2f','#16a6a0','#f2efe8'],id:'1eUiLX2NYG6rYTW9hxQWwUYj3dSqMgeiR'},
 heritage:{name:'Jeddah Heritage',desc:'Warm brown, heritage gold and ivory inspired by historic Jeddah.',colors:['#3f2d20','#b88a44','#f7f0e4'],id:'1zNpGsJVRe2ooLI3vFFAoPCHb9pJWZlo2'},
